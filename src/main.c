@@ -29,7 +29,7 @@
 #include "rom/gpio.h"
 #include "tinyusb.h"
 #include "esp_efuse.h"
-#define BOOT_PIN GPIO_NUM_0
+#define BOOT_PIN GPIO_NUM_1
 #elif defined(PICO_PLATFORM)
 #include "pico/stdlib.h"
 #include "bsp/board.h"
